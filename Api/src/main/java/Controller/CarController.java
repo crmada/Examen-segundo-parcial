@@ -16,7 +16,7 @@ public class CarController {
     private CarRepository carRepository;
 
     @Autowired
-    public CarController(carRepository productRepository) {
+    public CarController(carRepository carRepository) {
         this.carRepository = carRepository;
     }
 
